@@ -4,3 +4,113 @@
 .centered-pills a { float:left; }
 * html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
 *+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
+
+div.top {
+	height: 764px;
+	background-repeat: no-repeat;
+	background-position: 20px 0px;
+	background-image: url("/img/top_background.jpg");
+}
+
+div.top_iphonehand{
+	height: 762px;
+	background-repeat: no-repeat;
+	background-position: 52px 67px;
+	background-image: url("/img/top_iphonehand.png");
+}
+
+div.fb-like {
+	margin-top: 15px;
+	margin-left: 418px;
+	margin-bottom: 18px;
+	height: 20px;
+}
+
+div.top_logobackground{
+	width: 552px;
+	height: 635px;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border: 1px solid rgb(255, 255, 255);
+	
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+div.top_logo{
+	margin: 25px 0 0 25px;
+}
+
+div.top_logo_icon{
+	float: right;
+	width: 64px;
+	height: 64px;
+	margin-right: 50px;
+}
+
+div.top_logobackground h1{
+	font-size: 20px;
+	margin: 10px 0 0 50px;
+}
+
+div.top_logobackground p{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+div.top_logobackground iframe{
+	margin-top: 15px;
+	margin-left: 50px;
+	width: 450px;
+	height: 280px;
+}
+
+div.top_logobackground .small_icon{
+	width: 40px;
+	height: 40px;
+	margin-right: 2px;
+}
+
+div.top_logobackground .top_storelinks{
+	height: 40px;
+	margin-top: 10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+
+a.top_storelite{
+	margin-left: 15px;
+}
+
+div.top_logobackground p.top_services{
+	vertical-align: middle;
+}
+
+div.top_logobackground p.top_services img{
+	vertical-align: top;
+	margin-top:1px;
+}
+
+div.top ul.nav-tabs{
+	border-bottom:none;
+}
+div.top ul.nav-pills li a{
+	border-radius: 5px 5px 0 0;
+}
+
+div.top ul.nav{
+	margin-top:23px;
+	font-size: 20px;
+}
+
+div.top ul.nav li a{
+	line-height: 30px;
+	margin-left: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: bold;
+}
+
+

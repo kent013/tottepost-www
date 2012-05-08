@@ -1,0 +1,12 @@
+cp ../../../../tottepost/PhotoSubmitter/Services//DropboxPhotoSubmitter/Resources/Images/dropbox_16.png .
+cp ../../../../tottepost/PhotoSubmitter/Services//EvernotePhotoSubmitter/Resources/Images/evernote_16.png .
+cp ../../../../tottepost/PhotoSubmitter/Services//FacebookPhotoSubmitter/Resources/Images/facebook_16.png .
+cp ../../../../tottepost/PhotoSubmitter/Services//FilePhotoSubmitter/Resources/Images/file_16.png .
+cp ../../../../tottepost/PhotoSubmitter/Services//FlickrPhotoSubmitter/Resources/Images/flickr_16.png .
+cp ../../../../tottepost/PhotoSubmitter/Services//FotolifePhotoSubmitter/Resources/Images/fotolife_16.png .
+cp ../../../../tottepost/PhotoSubmitter/Services//MailPhotoSubmitter/Resources/Images/mail_16.png .
+cp ../../../../tottepost/PhotoSubmitter/Services//MinusPhotoSubmitter/Resources/Images/minus_16.png .
+cp ../../../../tottepost/PhotoSubmitter/Services//MixiPhotoSubmitter/Resources/Images/mixi_16.png .
+cp ../../../../tottepost/PhotoSubmitter/Services//PicasaPhotoSubmitter/Resources/Images/picasa_16.png .
+cp ../../../../tottepost/PhotoSubmitter/Services//SalesforcePhotoSubmitter/Resources/Images/salesforce_16.png .
+cp ../../../../tottepost/PhotoSubmitter/Services//TwitterPhotoSubmitter/Resources/Images/twitter_16.png .
