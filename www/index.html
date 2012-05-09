@@ -158,43 +158,17 @@
 
 <!---------------------------------- Contact --------------------------------->
 <div class="row tab-pane" id="contact">
-<div class="span4">
-<h3>Contact</h3>
-<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-<p><a class="btn" href="#">View details &raquo;</a></p>
-</div><!-- /span -->
-
-<div class="span4">
-<h3>Heading</h3>
-<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-<p><a class="btn" href="#">View details &raquo;</a></p>
-</div><!-- /span -->
-
-<div class="span4">
-<h3>Heading</h3>
-<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p><a class="btn" href="#">View details &raquo;</a></p>
+<div class="span12">
+<h3>開発者Blog</h3>
+<div id="blog_feeds"></div>
 </div><!-- /span -->
 </div><!-- /row(contact) -->
 
 <!------------------------------------ OSS ----------------------------------->
 <div class="row tab-pane" id="oss">
-<div class="span4">
+<div class="span12">
 <h3>OSS</h3>
-<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-<p><a class="btn" href="#">View details &raquo;</a></p>
-</div><!-- /span -->
-
-<div class="span4">
-<h3>Heading</h3>
-<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-<p><a class="btn" href="#">View details &raquo;</a></p>
-</div><!-- /span -->
-
-<div class="span4">
-<h3>Heading</h3>
-<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<p><a class="btn" href="#">View details &raquo;</a></p>
+<div id="github_feeds"></div>  
 </div><!-- /span -->
 </div><!-- /row(oss) -->
 
@@ -207,9 +181,13 @@
 </div> <!-- /container -->
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.rss.min.js"></script>
 <script>
 $(function () {
 $('.tabs a:last').tab('show')
+var template = '<li><a href="{url}" target="_blank">{title}</a></li>';
+  $("#github_feeds").rss("https://github.com/kent013/tottepost/commits/master.atom", {limit: 10, entryTemplate:template});
+  $("#blog_feeds").rss("http://d.hatena.ne.jp/kent013/rss", {limit: 10, entryTemplate:template});
 })
 </script>
 </body>
