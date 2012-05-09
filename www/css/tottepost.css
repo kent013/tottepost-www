@@ -5,6 +5,9 @@
 * html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
 *+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
 
+/*---------------------------------------------------------------------------*/
+/* Top */
+/*---------------------------------------------------------------------------*/
 div.top {
 	height: 764px;
 	background-repeat: no-repeat;
@@ -112,5 +115,28 @@ div.top ul.nav li a{
 	padding-right: 15px;
 	font-weight: bold;
 }
+/*---------------------------------------------------------------------------*/
+/* FAQ */
+/*---------------------------------------------------------------------------*/
+div#faq{
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-image: url("/img/faq_background.gif");
+}
+/*---------------------------------------------------------------------------*/
+/* Contact */
+/*---------------------------------------------------------------------------*/
+div#contact{
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-image: url("/img/contact_background.gif");
+}
 
-
+/*---------------------------------------------------------------------------*/
+/* OSS */
+/*---------------------------------------------------------------------------*/
+div#oss{
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-image: url("/img/oss_background.gif");
+}
