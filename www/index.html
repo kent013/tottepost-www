@@ -12,6 +12,7 @@
 
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.browserLanguage.js"></script>
 <script src="/js/minify.json.js"></script>
 <script src="/js/jquery.rss.min.js"></script>
 <script src="/js/jquery.localize.js"></script>
@@ -321,7 +322,13 @@
 </div> <!-- /container -->
 <script>
 $(function () {
-  setLang("en");
+  $.browserLanguage(function( language , acceptHeader ){
+      if(language == "Japanese"){
+        setLang("ja");
+      }else{
+        setLang("en");
+      }
+    })
   $('.tabs a:last').tab('show');
   var template = '<li><a href="{url}" target="_blank">{title}</a></li>';
   $("#github_feeds").rss("https://github.com/kent013/tottepost/commits/master.atom", {limit: 10, entryTemplate:template});
