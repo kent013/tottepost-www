@@ -1,0 +1,125 @@
+[[General]]
+    [title]
+	    tags = common
+		ja = tottepost - 1タップで写真&amp;動画を共有できるカメラ -
+		en = tottepost - Single Tap Camera for Sharing Photo&amp;Video -
+	[short-title]
+		tags = common
+		ja = 1タップで写真&amp;動画を共有できるカメラ
+		en = Single Tap Camera for Sharing Photo&amp;Video
+	[description]
+		tags = common
+		ja = tottepostは写真と動画をどえりゃー簡単に投稿できるカメラアプリです。<br/>撮影ボタンを1回押すだけで、あらかじめ設定したtwitterやfacebookなどに次々と投稿できます。
+		en = tottepost is a camera application, sharing photo &amp; videos as easy as winking!<br/>You can post the photo &amp; video to pre-configured cloud services, such as twitter, facebook and dropbox, with only a single tap on camera button.
+	[services]
+		tags = common
+		ja = 対応サービス
+		en = Available Services
+	[otherservices]
+		tags = common
+		ja = (ローカル保存、メール)
+		en = (Camera Roll, Mail)
+	[usage]
+		tags = common
+		ja = つかいかた
+		en = Usage
+	[usage_functionalities]
+		tags = common
+		ja =  <b>機能一覧</b>: 写真のアップロード (Facebook, Twitter, Flickr, Dropbox, Evernote, Salesforce Chatter, Minus, Picasa, Fotolife, Mixi) <b>/</b> 動画のアップロード (Facebook, Flickr, Dropbox, Minus, Salesforce Chatter) <b>/</b> 本体への保存 <b>/</b> メールでの送信 <b>/</b> マルチアカウントサポート(Facebook, Twitter) <b>/</b> 連続撮影 <b>/</b> コメントの切り替え <b>/</b> 位置情報埋め込みの切り替え <b>/</b> 写真および動画の解像度設定 <b>/</b> サイレントモード <b>/</b> アップロード先のアルバム選択  <b>/</b> アルバム作成 <b>/</b> バックグラウンドアップロード <b>/</b> 中断と自動再開 <b>/</b> 投稿キャンセル
+		en = <b>Feature List</b>: Uploading photo(Facebook, Twitter, Flickr, Dropbox, Evernote, Salesforce Chatter, Minus, Picasa, Fotolife, Mixi) <b>/</b> Uploading video(Facebook, Flickr, Dropbox, Minus, Salesforce Chatter) <b>/</b> Save to local camera roll <b>/</b> Send via e-mail <b>/</b> Multi account support(Facebook, Twitter) <b>/</b> Continuous shooting and uploading photo and video <b>/</b> Toggle comment <b>/</b> Toggle geo location <b>/</b> Selecting resolution of photo and video <b>/</b> Silent mode <b>/</b> Album selection  <b>/</b> Album creation <b>/</b> uploading in background <b>/</b> Aborting upload and automatic resume <b>/</b> Cancelling upload
+	[faq]
+		tags = common
+		ja = よくある質問
+		en = FAQ
+	[faq-what-title]
+		tags = common
+		ja = なにをするためのアプリですか
+		en = What is this Application for?
+	[faq-what-content]
+	    tags = common
+	    ja = カメラで撮った写真や動画をその場でFacebookなどに投稿するアプリです。Facebookアプリだとタップ数が多くて面倒くさい、複数のサービスに写真を投稿するのにFacebookアプリやDropboxアプリを立ち上げてカメラロールから共有するのが面倒くさい、そういった問題を解決するために、写真ならアプリを立ち上げて最小1タップで投稿できるようになっています。つまり開発者が怠け者だということです。
+		en = This application for uploading photo &amp; video immediately to social and storage services such as facebook, dropbox and so on. Feel messy to upload photo with Facebook app, uploading same photo &amp; video to multiple services. To solve these problem, tottepost provides simple operation to upload photo &amp; video with least one single tap. ...it means I'm lazy.
+	[faq-lite-title]
+		tags = common
+		ja = とりあえず試してみたいんだけど
+		en = I want to test it before buy it.
+	[faq-lite-content]
+		tags = common
+		ja = tottepostには有料版と無料のLITE版があります。LITEでも機能はほぼ同じなのでお試しください。
+		en = tottepost has free LITE version and payed version. Functionalities of LITE version are almost same as payed version. Please try it.
+	[faq-when-title]
+		tags = common
+		ja = どんなときに使えますか
+		en = When to use this App?
+	[faq-when-content]
+		tags = common
+		ja = <dt>急いでいるとき</dt><dd>写真は共有したいけれどコメントは後で良いときや、変な写真が撮れてしまっても後で削除すればいいときに、コメントオフでシャッターボタンを押せば即座にアップロードされ、連続撮影もできます。</dd><dt>サービス公式アプリの操作が面倒なとき</dt><dd>Facebook公式のiOSアプリは写真がステータスに添付されるまで最小8タップ必要です。tottepostは1タップでアップロードできます。</dd><dt>操作を教えるのが面倒なとき</dt><dd>「Facebookに写真をアップロードしたいんだけど」と聞かれて懇切丁寧に教えるよりも、tottepostをインストールして設定してあげれば、「シャッターボタンをタップすれば投稿できるよ」と簡単に教えてあげられます。</dd><dt>複数サービスに同じ写真を投稿したいとき</dt><dd>複数のサービスを有効にすれば、同時に同じ写真を投稿できます。Facebookで共有してバックアップはDropboxで...といった使い方ができます。</dd>
+		en = <dt>When you are in harry</dt><dd>When you want to share photo but no time to comment, you could turn off comment input and press shutter button to share photo immediately. You can take photo continuously.</dd><dt>When you feel messy with official app</dt><dd>Facebook App needs at least 8 taps to sharing photo. tottepost needs one single tap to sharing photo.</dd><dt>When you feel messy to tell usage of official app to other people</dt><dd>When someone ask you "Hey, I want to upload photo to facebook! You might tell me how to do it!", its...messy. Instead of teach it kindly, you could install tottepost and just configure it to uploading facebook.</dd><dt>When you want to upload same photo to multiple services</dt><dd>You can enable multiple services in configuration. Then you could upload same photos to them. For example, sharing photo with Facebook, creating backup with Dropbox.</dd> 
+	[faq-other-title]
+		tags = common
+		ja = こういうアプリほかにもたくさんありますよね？
+		en = I think there are lot of similar applications...
+	[faq-other-content-1]
+		tags = common
+		ja = えぇ。複数サービスに写真をアップロードするサービスはたくさんあります。例えば、<a href="http://ifttt.com/" target="_blank">ifttt</a>というサービスではアップロードされた写真を設定に従って後処理できます。また、<a href="http://pixelpipe.com/" target="_blank">Pixelpipe</a>では一つの写真を複数のサービスに投稿できます。<a href="http://www.eyefi.co.jp/" target="_blank">Eye-Fi</a>も同じですよね。すでに撮影した写真であれば<a href="http://itunes.apple.com/jp/app/pictshare-multiple-photos/id390945637?mt=8&ign-mpt=uo%3D4" target="_blank">PictShare</a>なんかも便利です。
+		en = Yep, I think so to. For example, <a href="http://ifttt.com/" target="_blank">ifttt</a> is useful to post process uploaded photo. Using <a href="http://pixelpipe.com/" target="_blank">Pixelpipe</a> to sharing photo with multiple services. <a href="http://www.eyefi.co.jp/" target="_blank">Eye-Fi</a> is a hardware, but it functionality is similar to Pixelpipe. And <a href="http://itunes.apple.com/app/pictshare-multiple-photos/id390945637?mt=8&ign-mpt=uo%3D4" target="_blank">PictShare</a> is useful to share photo that you already taken in cameraroll.
+	[faq-other-content-2]
+		tags = common
+		ja = でも、tottepostはずっと簡単ですよ。
+		en = But, I think tottepost is simpler than other applications.
+	[faq-ios5-title]
+		tags = common
+		ja = iOS5がうんたらでインストールできないんですけど...？
+		en = My device told me that I need iOS5...?
+	[faq-ios5-content]
+		tags = common
+		ja = itunesに繋いでiOS5にアップデートしてから再チャレンジしてください。<a href="http://free.gree.jp/pc/ios/special/20111013-01.html" target="_blank">iOS 5アップデート手順をやさしく解説! - iPhone情報局</a>とかを参考にしてください。iOS5なにかと快適なのでアップデートするといいですよ。
+		en = Please update your device to iOS5 with refering sites like <a href="http://techie-buzz.com/mobile-news/how-to-update-to-ios-5-from-itunesmanually.html" target="_blank">How To Update to iOS 5 From iTunes/Manually</a>. iOS5 have lots of update from iOS4, I strongly recommend you to upgrade your device.  
+	[faq-broken-title]
+		tags = common
+		ja = なんだか動かないんですけど...？
+		en = Hey, it's not working!
+	[faq-broken-content]
+		tags = common
+		ja = アプリ設定のフィードバックからメールかUserVoiceでお問い合わせください。可能な限り対応させていただきます。レビューにお書きくださってもフォローできませんので...あしからずご了承ください。
+		en = Please send me feedback from tottepost's setting -> feedback. Do not hesitate to contact us! ...If you write a review on itunes like "It's not working! Damn!", I could not help you because itunes site haven't functionality to reply comment...
+	[faq-cameraroll-title]
+		tags = common
+		ja = カメラロールの写真をアップロードしたい！
+		en = I want to upload photos in camera roll!
+	[faq-cameraroll-content]
+		tags = common
+		ja = 僕は<a href="http://itunes.apple.com/jp/app/pictshare-multiple-photos/id390945637?mt=8&ign-mpt=uo%3D4" target="_blank">PictShare</a>が好きです。
+		en = I love <a href="http://itunes.apple.com/app/pictshare-multiple-photos/id390945637?mt=8&ign-mpt=uo%3D4" target="_blank">PictShare</a>. It is greate app!
+	[faq-effect-title]
+		tags = common
+		ja = エフェクト付けたい！
+		en = I want to add cool effects on photo!
+	[faq-effect-content]
+		tags = common
+		ja = ごめんなさい、<a href="http://instagr.am/" target="_blank">Instagram</a>とか使ってください。
+		en = <a href="http://instagr.am/" target="_blank">Instagram</a> is a nice app...
+	[faq-camera-title]
+		tags = common
+		ja = カメラがついてないんですけど...
+		en = HEY, my device has no camera... 
+	[faq-camera-content]
+		tags = common
+		ja = えっと...ごめんなさい。
+		en = I'm so sorry for that...
+	[faq-tottepost-title]
+		tags = common
+		ja = tottepostってどういう意味？
+		en = What do you mean "tottepost"?
+	[faq-tottepost-content]
+		tags = common
+		ja = 名前を考えているときに「撮って出し」を英語にしたらshot'n postとかshoot'n postとかそんなんかなーって言ってたら、totte postになりました。気に入ってます。
+		en = First of all, I'm Japanese. In japan we have a word which explains this app's functionality, taking photo and sharing photo at once, exactly "撮って出し(totte-dashi)". Then I opened dictionary to search same word in English, I couldn't found it out. So, I've mixed Japanese and English, application name is finally totte(means take photo)-post.
+	[contact]
+		tags = common
+		ja = おといあわせ
+		en = Contact Us
+	[oss]
+		tags = common
+		ja =  OSS活動
+		en = OSS Activity

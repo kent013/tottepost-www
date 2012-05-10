@@ -15,6 +15,15 @@ div.top {
 	background-image: url("/img/top_background.jpg");
 }
 
+div.top div.language{
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+div.top div.language img{
+	margin-top: -2px;
+}
+
 div.top_iphonehand{
 	height: 762px;
 	background-repeat: no-repeat;
