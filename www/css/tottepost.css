@@ -41,15 +41,19 @@ div.top_logobackground{
 	background-color: rgba(255, 255, 255, 0.7);
 }
 
-div.top_logo{
-	margin: 25px 0 0 25px;
+div.top_header{
+	margin: 15px 0 0 25px;
 }
 
-div.top_logo_icon{
-	float: right;
+img.top_header_logo{
+	margin-left:15px;
+	margin-top:10px;
+}
+
+img.top_header_icon{
 	width: 64px;
 	height: 64px;
-	margin-right: 50px;
+	margin-left: 20px;
 }
 
 div.top_logobackground h1{
@@ -123,6 +127,22 @@ div#faq{
 	background-position: right bottom;
 	background-image: url("/img/faq_background.gif");
 }
+
+div#faq p{
+	margin-top:0.4em;
+	margin-left:1em;
+	text-indent:1em;
+	line-height:1.5em;
+}
+div#faq dt{
+	margin-top:0.4em;
+	line-height:1.5em;
+}
+div#faq dl{
+	margin-top:0;
+	margin-left:1em;
+}
+
 /*---------------------------------------------------------------------------*/
 /* Contact */
 /*---------------------------------------------------------------------------*/
@@ -130,6 +150,12 @@ div#contact{
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	background-image: url("/img/contact_background.gif");
+}
+div#contact p{
+	margin-top:0.4em;
+	margin-left:1em;
+	text-indent:1em;
+	line-height:1.5em;
 }
 
 /*---------------------------------------------------------------------------*/
