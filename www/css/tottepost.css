@@ -166,3 +166,9 @@ div#oss{
 	background-position: right bottom;
 	background-image: url("/img/oss_background.gif");
 }
+div#oss p{
+	margin-top:0.4em;
+	margin-left:1em;
+	text-indent:1em;
+	line-height:1.5em;
+}
