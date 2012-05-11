@@ -16,6 +16,7 @@
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/jquery.browserLanguage.js"></script>
 <script src="/js/minify.json.js"></script>
+<script src="/js/jquery.client.js"></script>
 <script src="/js/jquery.rss.min.js"></script>
 <script src="/js/jquery.localize.js"></script>
 <script src="/js/globalize.js"></script>
@@ -395,21 +396,34 @@ $("#showcase").awShowcase(
     show_caption:'onload', 
     speed_change:true
   });
+
+  var jitterBug =
+       ($.client.os == "Windows" &&
+       ($.client.browser == "Explorer" || $.client.browser == "Chrome"))
+
   $("#showcase_next").click(function(event){
     var current = $("iframe.videoframe:visible");
-    current.delay(200).hide();
+    if(jitterBug){
+      current.hide();
+    }
     $("#showcase div.showcase-arrow-next").trigger("click");
-    var next = $("iframe.videoframe:visible[data-num!=" + current.data("num") + "]");
-    next.hide();
-    next.delay(1000).show();
+    if(jitterBug){
+      var next = $("iframe.videoframe:visible[data-num!=" + current.data("num") + "]");
+      next.hide();
+      next.delay(1000).show();
+    }
   });
   $("#showcase_prev").click(function(event){
     var current = $("iframe.videoframe:visible");
-    current.delay(200).hide();
+    if(jitterBug){
+      current.delay(200).hide();
+    }
     $("#showcase div.showcase-arrow-previous").trigger("click");
-    var prev = $("iframe.videoframe:visible[data-num!=" + current.data("num") + "]");
-    prev.hide();
-    prev.delay(1000).show();
+    if(jitterBug){
+      var prev = $("iframe.videoframe:visible[data-num!=" + current.data("num") + "]");
+      prev.hide();
+      prev.delay(1000).show();
+    }
   });
   $("#showcase").css("overflow", "hidden");
 });
