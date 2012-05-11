@@ -33,7 +33,7 @@
 		en = <a href="http://itunes.apple.com/app/id513700186?mt=8&uo=4" target="itunes_store"><img class="small_icon top_storelite" src="http://a3.mzstatic.com/us/r1000/079/Purple/v4/84/a1/3d/84a13dd1-809e-7612-729e-565f66d1a456/PeSNcxPB8ig4uZRRcq6N8w-temp-upload.yejymden.75x75-65.jpg"/><img src="http://r.mzstatic.com/images/web/linkmaker/badge_appstore-lrg.gif" alt="1 tap camera for sharing photo&amp;video - tottepost LITE - ISHITOYA Kentaro" style="border: 0;"/></a>
 	[usage]
 		tags = common
-		ja = つかいかた
+		ja = 使いかた
 		en = Usage
 	[usage-functionalities]
 		tags = common
@@ -129,7 +129,7 @@
 		en = First of all, I'm Japanese. In japan we have a word which explains this app's functionality, taking photo and sharing photo at once, exactly "撮って出し(totte-dashi)". Then I opened dictionary to search same word in English, I couldn't found it out. So, I've mixed Japanese and English, application name is finally totte(means take photo)-post.
 	[contact]
 		tags = common
-		ja = おといあわせ
+		ja = お問い合わせ
 		en = Contact Us
 	[contact-developer-title]
 		tags = common
