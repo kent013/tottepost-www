@@ -87,6 +87,7 @@ div.top_logobackground p{
 div.top_logobackground iframe{
 	width: 450px;
 	height: 280px;
+	border: 0;
 }
 
 div.showcase_base{
