@@ -89,6 +89,35 @@ div.top_logobackground iframe{
 	height: 280px;
 }
 
+div.showcase_wrapper{
+	background-color:black;
+	width:450px;
+	margin-left:50px;
+}
+
+div.showcase_prev, div.showcase_next{
+	position: relative;
+	background-image: url(/img/awshowcase/arrows-small.png);
+	width: 17px;
+	height: 17px;
+	top: 263px;
+	cursor: pointer;
+}
+
+.showcase_prev
+{
+	float: left;
+	left: 25px;
+	background-position: 0 -17px;
+}
+	
+.showcase_next
+{
+	float: right;
+	right: 25px;
+	background-position: 0 0;
+}
+
 div.top_logobackground .small_icon{
 	width: 40px;
 	height: 40px;
@@ -135,6 +164,7 @@ div.top ul.nav li a{
 	padding-right: 15px;
 	font-weight: bold;
 }
+
 /*---------------------------------------------------------------------------*/
 /* FAQ */
 /*---------------------------------------------------------------------------*/
