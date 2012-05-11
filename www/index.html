@@ -64,14 +64,12 @@
 <div id="showcase" class="showcase">
 <div class="showcase-slide">
 <div class="showcase-content">
-<!--div width="450" height="280" style="background-color:blue"><img src="http://placehold.it/450x280" /></div-->
-<iframe width="500" height="284" src="http://www.youtube.com/embed/Jwa64dYSF8Y?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe class="videoframe" data-num="1" width="500" height="284" src="http://www.youtube.com/embed/Jwa64dYSF8Y?rel=0" frameborder="0" allowfullscreen></iframe>
 </div><!-- /showcase-content -->
 </div><!-- /showcase-slide -->
 <div class="showcase-slide">
 <div class="showcase-content">
-<!--div width="450" height="280" style="background-color:blue"><img src="http://placehold.it/450x280" /></div-->
-<iframe width="500" height="284" src="http://www.youtube.com/embed/UExrooV0Ijg?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe class="videoframe" data-num="2" width="500" height="284" src="http://www.youtube.com/embed/UExrooV0Ijg?rel=0" frameborder="0" allowfullscreen></iframe>
 </div><!-- /showcase-content -->
 </div><!-- /showcase-slide -->
 </div><!-- /showcase -->
@@ -395,13 +393,21 @@ $("#showcase").awShowcase(
     transition_delay:0,
     transition_speed:500,
     show_caption:'onload', 
-    speed_change:false
+    speed_change:true
   });
   $("#showcase_next").click(function(event){
+    var current = $("iframe.videoframe:visible");
     $("#showcase div.showcase-arrow-next").trigger("click");
+    var next = $("iframe.videoframe:visible[data-num!=" + current.data("num") + "]");
+    next.hide();
+    next.delay(1000).show();
   });
   $("#showcase_prev").click(function(event){
+    var current = $("iframe.videoframe:visible");
     $("#showcase div.showcase-arrow-previous").trigger("click");
+    var prev = $("iframe.videoframe:visible[data-num!=" + current.data("num") + "]");
+    prev.hide();
+    prev.delay(1000).show();
   });
   $("#showcase").css("overflow", "hidden");
 });
@@ -422,6 +428,7 @@ function setLang(lang){
       $("#language").data("lang", "en");
     }
 }
+
 </script>
 </body>
 </html>
