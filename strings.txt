@@ -9,7 +9,7 @@
 		en = Single Tap Camera for Sharing Photo&amp;Video
 	[description]
 		tags = common
-		ja = tottepostは写真と動画をどえりゃー簡単に投稿できるカメラアプリです。<br/>撮影ボタンを1回押すだけで、あらかじめ設定したtwitterやfacebookなどに次々と投稿できます。
+		ja = tottepostは写真と動画をとっても簡単に投稿できるカメラアプリです。<br/>撮影ボタンを1回押すだけで、あらかじめ設定したtwitterやfacebookなどに投稿できます。
 		en = tottepost is a camera application, sharing photo &amp; videos as easy as winking!<br/>You can post the photo &amp; video to pre-configured cloud services, such as twitter, facebook and dropbox, with only a single tap on camera button.
 	[services]
 		tags = common
