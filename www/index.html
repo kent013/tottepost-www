@@ -63,9 +63,9 @@
   <span rel="localize[otherservices]">(ローカル保存、メール)</span>
 </p>
 </div>
-<ul class="nav nav-pills">
+<ul class="nav nav-pills" id="main_menu">
 <li class="active"><a href="#usage" data-toggle="tab" rel="localize[usage]">つかいかた</a></li>
-<li><a href="#faq" data-toggle="tab" rel="localize[faq]">FAQ</a></li>
+<li><a href="#faq" data-toggle="tab" rel="localize[faq]">よくある質問</a></li>
 <li><a href="#contact" data-toggle="tab" rel="localize[contact]">おといあわせ</a></li>
 <li><a href="#oss" data-toggle="tab" rel="localize[oss]">OSS活動</a></li>
 </ul>
@@ -171,7 +171,7 @@
 <div class="tab-pane" id="faq">
 <div class="row">
 <div class="span12">
-<h2 rel="localize[faq]">FAQ (よくある質問)</h2>
+<h2 rel="localize[faq]">よくある質問</h2>
 <hr/>
 </div><!-- /span -->
 </div><!-- /row -->
@@ -343,6 +343,12 @@ $(function () {
       lang = "ja";
     }
     setLang(lang);
+    return false;
+  });
+  $("#main_menu li a").mouseup(function(){
+    var position = $("#main_menu").offset().top;
+    $($.browser.safari ? 'body' : 'html').animate({scrollTop:position}, 400, 'swing');
+    return false;
   });
 });
 
