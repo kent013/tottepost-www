@@ -397,6 +397,7 @@ $("#showcase").awShowcase(
   });
   $("#showcase_next").click(function(event){
     var current = $("iframe.videoframe:visible");
+    current.delay(200).hide();
     $("#showcase div.showcase-arrow-next").trigger("click");
     var next = $("iframe.videoframe:visible[data-num!=" + current.data("num") + "]");
     next.hide();
@@ -404,6 +405,7 @@ $("#showcase").awShowcase(
   });
   $("#showcase_prev").click(function(event){
     var current = $("iframe.videoframe:visible");
+    current.delay(200).hide();
     $("#showcase div.showcase-arrow-previous").trigger("click");
     var prev = $("iframe.videoframe:visible[data-num!=" + current.data("num") + "]");
     prev.hide();
