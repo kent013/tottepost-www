@@ -9,10 +9,8 @@
 
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 <link href="/css/tottepost.css" rel="stylesheet">
-<link href="/css/awshowcase.css"rel="stylesheet">
 
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-<script src="/js/jquery.aw-showcase.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/jquery.browserLanguage.js"></script>
 <script src="/js/minify.json.js"></script>
@@ -60,20 +58,14 @@
 </p>
 <hr/>
 
-<div class="showcase_wrapper">
-<div id="showcase" class="showcase">
-<div class="showcase-slide">
-<div class="showcase-content">
-<iframe class="videoframe" data-num="1" width="450" height="280" src="http://www.youtube.com/embed/Jwa64dYSF8Y?rel=0" frameborder="0" allowfullscreen></iframe>
-</div><!-- /showcase-content -->
-</div><!-- /showcase-slide -->
-<div class="showcase-slide">
-<div class="showcase-content">
+<div class="showcase">
+<div class="showcase_next icon-chevron-left" id="showcase_next"></div>
+<div class="showcase_prev icon-chevron-right" id="showcase_prev"></div>
+<div class="showcase_base">
+<iframe class="videoframe" data-num="1" width="450" height="280"src="http://www.youtube.com/embed/Jwa64dYSF8Y?rel=0" frameborder="0" allowfullscreen></iframe>
 <iframe class="videoframe" data-num="2" width="450" height="280" src="http://www.youtube.com/embed/UExrooV0Ijg?rel=0" frameborder="0" allowfullscreen></iframe>
-</div><!-- /showcase-content -->
-</div><!-- /showcase-slide -->
+</div><!-- /showcase-base -->
 </div><!-- /showcase -->
-</div><!-- /showcase-wrapper-->
 
 <p class="top_storelinks">
  <span rel="localize[appstore-icon]"><a href="http://itunes.apple.com/jp/app/id498769617?mt=8&uo=4" target="itunes_store"><img class="small_icon" src="http://a2.mzstatic.com/us/r1000/103/Purple/v4/cf/4d/f3/cf4df35c-beee-ee15-3c1a-31d572124c13/mzl.xqmilnwi.75x75-65.jpg"/><img src="http://r.mzstatic.com/images/web/linkmaker/badge_appstore-lrg.gif" alt="1タップで写真&amp;動画を共有できるカメラ - tottepost - ISHITOYA Kentaro" style="border: 0;"/></a></span>
@@ -368,34 +360,23 @@ $(function () {
     $($.browser.safari ? 'body' : 'html').animate({scrollTop:position}, 400, 'swing');
     return false;
   });
-  $("#showcase").awShowcase(
-  {
-    content_width:450,
-    content_height:280,
-    fit_to_parent:false,
-    auto:false,
-    interval:3000,
-    continuous:false,
-    loading:true,
-    tooltip_width:200,
-    tooltip_icon_width:32,
-    tooltip_icon_height:32,
-    tooltip_offsetx:18,
-    tooltip_offsety:0,
-    arrows:true,
-    buttons:false,
-    btn_numbers:false,
-    keybord_keys:true,
-    mousetrace:false, 
-    pauseonover:true,
-    stoponclick:false,
-    transition:'hslide', 
-    transition_delay:0,
-    transition_speed:500,
-    show_caption:'onload', 
-    speed_change:true
+
+  $("iframe.videoframe[data-num=2]").hide();
+  $("#showcase_next").click(function(event){
+    toggleIframe();
+  });
+  $("#showcase_prev").click(function(event){
+    toggleIframe();
   });
 });
+
+function toggleIframe(){
+      var current = $("iframe.videoframe:visible");
+      var next = $("iframe.videoframe[data-num!=" + current.data("num") + "]");
+      current.fadeOut(200);
+      next.hide();
+      next.delay(220).fadeIn(200);
+}
 
 //set language (en, ja)
 function setLang(lang){

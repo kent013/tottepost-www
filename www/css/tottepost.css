@@ -89,15 +89,22 @@ div.top_logobackground iframe{
 	height: 280px;
 }
 
-div.showcase_wrapper{
-	background-color:black;
-	width:450px;
-	margin-left:50px;
+div.showcase_base{
+	width: 450px;
+	height: 280px;
+	margin-left: 33px;
+	background-color: black;
+}
+
+div.showcase{
+	width:550px;
+	height:280px;
+	overflow:hidden;
 }
 
 div.showcase_prev, div.showcase_next{
 	position: relative;
-	background-image: url(/img/awshowcase/arrows-small.png);
+	background-image: url(/img/arrows-small.png);
 	width: 17px;
 	height: 17px;
 	top: 263px;
