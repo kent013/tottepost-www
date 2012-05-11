@@ -5,6 +5,8 @@
 * html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
 *+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
 
+body { -webkit-transform: translate3d(0, 0, 0); }
+
 /*---------------------------------------------------------------------------*/
 /* Top */
 /*---------------------------------------------------------------------------*/
