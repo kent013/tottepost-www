@@ -58,6 +58,8 @@
   <span rel="localize[otherservices]">(ローカル保存、メール)</span>
 </p>
 <hr/>
+<a href="javascript:void(0);" id="showcase_next">next</a>
+<a href="javascript:void(0);" id="showcase_prev">prev</a>
 <div id="showcase" class="showcase">
 <div class="showcase-slide">
 <div class="showcase-content">
@@ -393,6 +395,13 @@ $("#showcase").awShowcase(
     show_caption:'onload', 
     speed_change:false
   });
+  $("#showcase_next").click(function(event){
+    $("#showcase div.showcase-arrow-next").trigger("click");
+  });
+  $("#showcase_prev").click(function(event){
+    $("#showcase div.showcase-arrow-previous").trigger("click");
+  });
+  $("#showcase").css("overflow", "hidden");
 });
 
 //set language (en, ja)
