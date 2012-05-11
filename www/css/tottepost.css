@@ -18,10 +18,16 @@ div.top {
 div.top div.language{
 	margin-top: 10px;
 	margin-left: 30px;
+	width:63px;
+	float:left;
 }
 
 div.top div.language img{
 	margin-top: -2px;
+}
+
+div.top div.top_toolbox{
+	margin-top: 720px;
 }
 
 div.top_iphonehand{
@@ -32,13 +38,14 @@ div.top_iphonehand{
 }
 
 div.fb-like {
-	margin-top: 15px;
-	margin-left: 418px;
-	margin-bottom: 18px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
 	height: 20px;
 }
 
 div.top_logobackground{
+	margin-top: 53px;
 	width: 552px;
 	height: 635px;
 
