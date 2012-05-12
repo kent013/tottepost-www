@@ -177,10 +177,6 @@ div.top ul.nav li a{
 /* Usage */
 /*---------------------------------------------------------------------------*/
 
-div#usage div.tab-content{
-	height:524px;
-}
-
 div#usage p{
 	text-indent:1em;
 }
