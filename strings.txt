@@ -10,7 +10,7 @@
 	[description]
 		tags = common
 		ja = tottepostは写真と動画をとっても簡単に投稿できるカメラアプリです。<br/>撮影ボタンを1回押すだけで、あらかじめ設定したtwitterやfacebookなどに投稿できます。
-		en = tottepost is a camera application, sharing photo &amp; videos as easy as winking!<br/>You can post the photo &amp; video to pre-configured cloud services, such as twitter, facebook and dropbox, with only a single tap on camera button.
+		en = tottepost is a camera application, sharing photo &amp; video as easy as winking! You can post the photo &amp; video to pre-configured cloud services, such as twitter, facebook and dropbox, with only a single tap on camera button.
 	[services]
 		tags = common
 		ja = 対応サービス
@@ -35,10 +35,14 @@
 		tags = common
 		ja = 使いかた
 		en = Usage
+	[usage-feature-list]
+	    tags = common
+	    ja = 機能一覧
+		en = Feature List
 	[usage-functionalities]
 		tags = common
-		ja = <span class="label label-info">機能一覧</span> 写真のアップロード (Facebook, Twitter, Flickr, Dropbox, Evernote, Salesforce Chatter, Minus, Picasa, Google Drive, Instagram Fotolife, Mixi) <b>/</b> 動画のアップロード (Facebook, Flickr, Dropbox, Google Drive, Minus, Salesforce Chatter) <b>/</b>Instagramアプリへ写真の転送(ご利用には<a href="http://instagr.am" target="_blank" title="instagram">Instagram</a>のインストールが必要です)<b>/</b> 本体への保存 <b>/</b> メールでの送信 <b>/</b> マルチアカウントサポート(Facebook, Twitter) <b>/</b> 連続撮影 <b>/</b> コメントの切り替え <b>/</b> 位置情報埋め込みの切り替え <b>/</b> 写真および動画の解像度設定 <b>/</b> サイレントモード <b>/</b> アップロード先のアルバム選択  <b>/</b> アルバム作成 <b>/</b> バックグラウンドアップロード <b>/</b> 中断と自動再開 <b>/</b> 投稿キャンセル
-		en = <span class="label label-info">Feature List</span> Uploading photo(Facebook, Twitter, Flickr, Dropbox, Google Drive, Evernote, Salesforce Chatter, Minus, Picasa, Fotolife, Mixi) <b>/</b> Uploading video(Facebook, Flickr, Dropbox, Google Drive, Minus, Salesforce Chatter) <b>/</b> Pass photo to Instagram App (Need to install <a href="http://instagr.am" target="_blank" title="instagram">Instagram</a>) <b>/</b> Save to local camera roll <b>/</b> Send via e-mail <b>/</b> Multi account support(Facebook, Twitter) <b>/</b> Continuous shooting and uploading photo and video <b>/</b> Toggle comment <b>/</b> Toggle geo location <b>/</b> Selecting resolution of photo and video <b>/</b> Silent mode <b>/</b> Album selection  <b>/</b> Album creation <b>/</b> uploading in background <b>/</b> Aborting upload and automatic resume <b>/</b> Cancelling upload
+		ja = 写真のアップロード (Facebook, Twitter, Flickr, Dropbox, Evernote, Salesforce Chatter, Minus, Picasa, Google Drive, Instagram Fotolife, Mixi) <b>/</b> 動画のアップロード (Facebook, Flickr, Dropbox, Google Drive, Minus, Salesforce Chatter) <b>/</b>Instagramアプリへ写真の転送(ご利用には<a href="http://instagr.am" target="_blank" title="instagram">Instagram</a>のインストールが必要です)<b>/</b> 本体への保存 <b>/</b> メールでの送信 <b>/</b> マルチアカウントサポート(Facebook, Twitter) <b>/</b> 連続撮影 <b>/</b> コメントの切り替え <b>/</b> 位置情報埋め込みの切り替え <b>/</b> 写真および動画の解像度設定 <b>/</b> サイレントモード <b>/</b> アップロード先のアルバム選択  <b>/</b> アルバム作成 <b>/</b> バックグラウンドアップロード <b>/</b> 中断と自動再開 <b>/</b> 投稿キャンセル
+		en = Uploading photo(Facebook, Twitter, Flickr, Dropbox, Google Drive, Evernote, Salesforce Chatter, Minus, Picasa, Fotolife, Mixi) <b>/</b> Uploading video(Facebook, Flickr, Dropbox, Google Drive, Minus, Salesforce Chatter) <b>/</b> Pass photo to Instagram App (Need to install <a href="http://instagr.am" target="_blank" title="instagram">Instagram</a>) <b>/</b> Save to local camera roll <b>/</b> Send via e-mail <b>/</b> Multi account support(Facebook, Twitter) <b>/</b> Continuous shooting and uploading photo and video <b>/</b> Toggle comment <b>/</b> Toggle geo location <b>/</b> Selecting resolution of photo and video <b>/</b> Silent mode <b>/</b> Album selection  <b>/</b> Album creation <b>/</b> uploading in background <b>/</b> Aborting upload and automatic resume <b>/</b> Cancelling upload
 	[faq]
 		tags = common
 		ja = よくある質問

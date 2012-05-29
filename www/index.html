@@ -43,8 +43,8 @@
 <div class="top_header"><img class="top_header_logo" src="/img/logo.gif" alt="tottepost logo"/><img class="top_header_icon" src="http://a2.mzstatic.com/us/r1000/103/Purple/v4/cf/4d/f3/cf4df35c-beee-ee15-3c1a-31d572124c13/mzl.xqmilnwi.75x75-65.jpg" alt="tottepost icon"/></div>
 <h1 data-localize="short-title">1タップで写真&amp;動画を共有できるカメラ</h1>
 <p data-localize="description">tottepostは写真と動画をとっても簡単に投稿できるカメラアプリです。<br/>撮影ボタンを1回押すだけで、あらかじめ設定したtwitterやfacebookなどに投稿できます。</p>
+<p><span data-localize="services" class="label label-info">対応サービス</span></p>
 <p class="top_services">
-  <span data-localize="services" class="label label-info">対応サービス</span> 
   <a href="http://www.facebook.com/" target="_blank"><img src="/img/services/facebook_16.png" alt="Facebook" title="Facebook"/></a>
   <a href="http://twitter.com/" target="_blank"><img src="/img/services/twitter_16.png" alt="Twitter" title="Twitter"/></a>
   <a href="http://www.dropbox.com" target="_blank"><img src="/img/services/dropbox_16.png" alt="Dropbox" title="Dropbox"/></a>
@@ -95,7 +95,7 @@
 <div class="row">
 <div class="span12">
 <h2 data-localize="usage">使いかた</h2>
-<ul class="nav nav-pills">
+<ul class="nav nav-pills" id="usage_menu">
 <li class="active"><a href="#usage_basic" data-toggle="tab" data-localize="basic-usage">基本的な使いかた</a></li>
 <li><a href="#usage_album" data-toggle="tab" data-localize="album-creation">アルバムの作りかた</a></li>
 <li><a href="#usage_setting" data-toggle="tab" data-localize="detail-settings">細かい設定</a></li>
@@ -109,28 +109,27 @@
 <div class="row">
 <div class="span4">
 <canvas id="canvas_usage_basic_1" class="usage_medium" width="328" height="329"></canvas>
-<h3 rel="localization[usage-basic-1-title]">1. 設定する</h3>
-<p data-localize="usage-basic-1-content"">tottepostが起動したら設定ボタンを押しましょう。</p>
+<h3>1. <span data-localize="usage-basic-1-title"></span></h3>
+<p data-localize="usage-basic-1-content"></p>
 </div><!-- /span -->
 
 <div class="span4">
 <canvas id="canvas_usage_basic_2" class="usage_medium" width="328" height="329"></canvas>
-<h3 data-localize="usage-basic-2-title"">2. サービスの認証</h3>
-<p data-localize="usage-basic-2-content"">投稿したいサービスの名前の横にあるスイッチから認証をしましょう。投稿したいサービスは複数選べます。全ての認証が終わったら完了ボタンで撮影画面に戻りましょう。</p>
+<h3>2. <span data-localize="usage-basic-2-title"></span></h3>
+<p data-localize="usage-basic-2-content"></p>
 </div><!-- /span -->
 
 <div class="span4">
 <canvas id="canvas_usage_basic_3" class="usage_medium" width="328" height="329"></canvas>
-<h3 data-localize="usage-basic-3-title"">3. 写真の撮影</h3>
-<p data-localize="usage-basic-3-content"">撮影ボタンを押して、投稿したい写真を撮りましょう。撮影前にコメントボタンを押すと、撮影後に投稿コメントを入力することができます。また、ビデオ切り替えスイッチを押すとビデオを撮影して投稿することができます。</p>
+<h3>3. <span data-localize="usage-basic-3-title"></span></h3>
+<p data-localize="usage-basic-3-content"></p>
 </div><!-- /span -->
 </div><!-- /row -->
 <div class="row">
 <div class="span4">
 <canvas id="canvas_usage_basic_4" class="usage_medium" width="328" height="329"></canvas>
-<h3 data-localize="usage-basic-4-title"">4. アップロード</h3>
-<p data-localize="usage-basic-4-content"">
-撮影が終わると選択されたサービスにアップロードが開始されます。アップロードの進行状況を表すメーターが現れます。アップロードを中止したい時はアップロード中止ボタンを押してください。なお、アップロードが終ってない状態でホームボタンでアプリを終了しても、アップロードされ続けられます。</p>
+<h3>4. <span data-localize="usage-basic-4-title"></span></h3>
+<p data-localize="usage-basic-4-content"></p>
 </div><!-- /span -->
 </div><!-- /row -->
 </div><!-- /tab-pane(usage_basic) -->
@@ -139,10 +138,10 @@
 <div class="row">
 <div class="span4">
 <canvas id="canvas_usage_album_1" class="usage_medium" width="328" height="329"></canvas>
-<h3 data-localize="usage-album-1-title"">1. アルバムを作るサービスの選択</h3>
-<p data-localize="usage-album-1-content"">以下のサービスでは、アルバムを作成して、そのアルバムに直接投稿することができます。アルバムを作りたいサービス名を設定画面から押しましょう。</p>
+<h3>1. <span data-localize="usage-album-1-title"></span></h3>
+<p data-localize="usage-album-1-content"></p>
 <p>  
-  <span class="label label-info">対応サービス</span> 
+  <span data-localize="services" class="label label-info">対応サービス</span>
   <a href="http://www.facebook.com/" target="_blank"><img src="/img/services/facebook_16.png" alt="facebook"title="facebook"/></a>
   <a href="http://www.dropbox.com" target="_blank"><img src="/img/services/dropbox_16.png" alt="dropbox" title="dropbox"/></a>
   <a href="http://www.evernote.com" target="_blank"><img src="/img/services/evernote_16.png" alt="evernote" title="evernote"/></a>
@@ -156,14 +155,14 @@
 
 <div class="span4">
 <canvas id="canvas_usage_album_2" class="usage_medium" width="328" height="329"></canvas>
-<h3 data-localize="usage-album-2-title"">2.アルバム作成ボタンを選択</h3>
-<p data-localize="usage-album-2-content"">アルバム作成ボタンを押してください。また、アルバム作成ボタンの上のアルバム名を押すことで、投稿先のアルバムを選択できます。「/」の項目は標準の投稿先になります。</p>
+<h3>2. <span data-localize="usage-album-2-title"></span></h3>
+<p data-localize="usage-album-2-content"></p>
 </div><!-- /span -->
 
 <div class="span4">
 <canvas id="canvas_usage_album_3" class="usage_medium" width="328" height="329"></canvas>
-<h3 data-localize="usage-album-3-title"">3. アルバム名を入力</h3>
-<p data-localize="usage-album-3-content"">作成するアルバム名を入力して、保存ボタンを押すとアルバムが作成されます。作ったアルバムに写真を投稿したい場合は、2の画面で作ったアルバムを選択してください。</p>
+<h3>3. <span data-localize="usage-album-3-title"></span></h3>
+<p data-localize="usage-album-3-content"></p>
 </div><!-- /span -->
 </div><!-- /row -->
 </div><!-- /tab-pane(usage_album) -->
@@ -175,26 +174,26 @@
 </div><!-- /span -->
 
 <div class="span8">
-<p id="usage-setting" data-localize="usage-setting"">設定画面では投稿するサービスの選択の他に様々な設定ができます。それぞれの設定項目と機能は以下の通りです。</p>
+<p id="usage-setting" data-localize="usage-setting"></p>
 <dl>
-<dt data-localize="usage-setting-1-title"">コメント</dt>
-<dd data-localize="usage-setting-1-content"">オンにすると写真撮影後に投稿コメントを入力できます。</dd>
-<dt data-localize="usage-setting-2-title"">位置情報</dt>
-<dd data-localize="usage-setting-2-content"">オンにすると投稿された写真に位置情報が追加されます。</dd>
-<dt data-localize="usage-setting-3-title"">自動補正</dt>
-<dd data-localize="usage-setting-3-content"">オンにすると写真撮影時に明るさが自動補正されます。</dd>
-<dt data-localize="usage-setting-4-title"">写真画質</dt>
-<dd data-localize="usage-setting-4-content"">タップすると写真の画質を設定できます。Photo, High, Medium, Lowの4つから選べます。解像度はお使いの機種に依存しますが、Photoが最高画質です。</dd>
-<dt data-localize="usage-setting-5-title"">ビデオ画質</dt>
-<dd data-localize="usage-setting-5-content"">タップすると動画の画質を設定できます。High, Medium, Lowの4つから選べます。解像度はお使いの機種に依存しますが、Highが最高画質です。動画はファイルサイズが大きくなるので、Highにすると投稿に時間がかかります。</dd>
-<dt data-localize="usage-setting-6-title"">静音モード</dt>
-<dd data-localize="usage-setting-6-content"">オンにすると、シャッターの音量が調節できるようになります。</dd>
-<dt data-localize="usage-setting-7-title"">シャッター音量</dt>
-<dd data-localize="usage-setting-7-content"">静音モードをオンにした状態だと、シャッターの音量を調節できます。左にいく程音量が小さくなります。</dd>
-<dt data-localize="usage-setting-8-title"">ヘルプ</dt>
-<dd data-localize="usage-setting-8-content"">オンにすると、tottepostを初めて操作する際に操作方法がポップアップされます。</dd>
-<dt data-localize="usage-setting-9-title"">フィードバック</dt>
-<dd data-localize="usage-setting-9-content"">タップすると、開発者にバグの報告やアイディアの提案、AppSoreの評価などができます。ちょっとした感想や意見などなんでもいいのでお気軽にお問い合わせください。</dd>
+<dt data-localize="usage-setting-1-title"></dt>
+<dd data-localize="usage-setting-1-content"></dd>
+<dt data-localize="usage-setting-2-title"></dt>
+<dd data-localize="usage-setting-2-content"></dd>
+<dt data-localize="usage-setting-3-title"></dt>
+<dd data-localize="usage-setting-3-content"></dd>
+<dt data-localize="usage-setting-4-title"></dt>
+<dd data-localize="usage-setting-4-content"></dd>
+<dt data-localize="usage-setting-5-title"></dt>
+<dd data-localize="usage-setting-5-content"></dd>
+<dt data-localize="usage-setting-6-title"></dt>
+<dd data-localize="usage-setting-6-content"></dd>
+<dt data-localize="usage-setting-7-title"></dt>
+<dd data-localize="usage-setting-7-content"></dd>
+<dt data-localize="usage-setting-8-title"></dt>
+<dd data-localize="usage-setting-8-content"></dd>
+<dt data-localize="usage-setting-9-title"></dt>
+<dd data-localize="usage-setting-9-content"></dd>
 </dl>
 
 </div><!-- /span -->
@@ -206,6 +205,7 @@
 <div class="span12">
 <hr/>
 <div class="alert alert-info">
+<div class="usage_feature_label"><span class="label label-info" data-localize="usage-feature-list"></span></div>
 <p data-localize="usage-functionalities"><b>機能一覧</b>: 写真のアップロード (Facebook, Twitter, Flickr, Dropbox, Evernote, Salesforce Chatter, Minus, Picasa, Google Drive, Instagram Fotolife, Mixi) <b>/</b> 動画のアップロード (Facebook, Flickr, Dropbox, Google Drive, Minus, Salesforce Chatter) <b>/</b>Instagramアプリへ写真の転送(ご利用には<a href="http://instagr.am" target="_blank" title="instagram">Instagram</a>のインストールが必要です)<b>/</b> 本体への保存 <b>/</b> メールでの送信 <b>/</b> マルチアカウントサポート(Facebook, Twitter) <b>/</b> 連続撮影 <b>/</b> コメントの切り替え <b>/</b> 位置情報埋め込みの切り替え <b>/</b> 写真および動画の解像度設定 <b>/</b> サイレントモード <b>/</b> アップロード先のアルバム選択  <b>/</b> アルバム作成 <b>/</b> バックグラウンドアップロード <b>/</b> 中断と自動再開 <b>/</b> 投稿キャンセル</p>
 </div><!-- /alert -->
 </div><!-- /row -->
@@ -397,7 +397,13 @@ $(function () {
     return false;
   });
 
-  $("#showcase_next").click(function(event){
+  $("#usage_menu li a").mouseup(function(){
+    var position = $("#usage_menu").offset().top;
+    $($.browser.safari ? 'body' : 'html').animate({scrollTop:position}, 400, 'swing');
+    return false;
+  });
+
+$("#showcase_next").click(function(event){
     toggleIframe();
   });
   $("#showcase_prev").click(function(event){
