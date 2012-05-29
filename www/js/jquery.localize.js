@@ -76,7 +76,7 @@
       return $.ajax(ajaxOptions);
     };
     defaultCallback = function(data) {
-      $.localize.data[pkg] = data;
+	  $.localize.data[pkg] = data;
       return wrappedSet.each(function() {
         var elem, key, value;
         elem = $(this);

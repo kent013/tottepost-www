@@ -15,7 +15,7 @@
 "appstore-lite":"<a href=\"http://itunes.apple.com/jp/app/id513700186?mt=8&uo=4\" target=\"itunes_store\"><img src=\"http://r.mzstatic.com/images/web/linkmaker/badge_appstore-lrg.gif\" alt=\"1タップで写真&amp;動画を共有できるカメラ - tottepost LITE - ISHITOYA Kentaro\" style=\"border: 0;\"/></a>",
 "appstore-lite-icon":"<a href=\"http://itunes.apple.com/jp/app/id513700186?mt=8&uo=4\" target=\"itunes_store\"><img class=\"small_icon top_storelite\" src=\"http://a3.mzstatic.com/us/r1000/079/Purple/v4/84/a1/3d/84a13dd1-809e-7612-729e-565f66d1a456/PeSNcxPB8ig4uZRRcq6N8w-temp-upload.yejymden.75x75-65.jpg\" alt=\"tottepost lite icon\"/><img src=\"http://r.mzstatic.com/images/web/linkmaker/badge_appstore-lrg.gif\" alt=\"1タップで写真&amp;動画を共有できるカメラ - tottepost LITE - ISHITOYA Kentaro\" style=\"border: 0;\"/></a>",
 "usage":"使いかた",
-"usage-functionalities":"<b>機能一覧</b>: 写真のアップロード (Facebook, Twitter, Flickr, Dropbox, Evernote, Salesforce Chatter, Minus, Picasa, Google Drive, Instagram Fotolife, Mixi) <b>/</b> 動画のアップロード (Facebook, Flickr, Dropbox, Google Drive, Minus, Salesforce Chatter) <b>/</b>Instagramアプリへ写真の転送(ご利用には<a href=\"http://instagr.am\" target=\"_blank\" title=\"instagram\">Instagram</a>のインストールが必要です)<b>/</b> 本体への保存 <b>/</b> メールでの送信 <b>/</b> マルチアカウントサポート(Facebook, Twitter) <b>/</b> 連続撮影 <b>/</b> コメントの切り替え <b>/</b> 位置情報埋め込みの切り替え <b>/</b> 写真および動画の解像度設定 <b>/</b> サイレントモード <b>/</b> アップロード先のアルバム選択  <b>/</b> アルバム作成 <b>/</b> バックグラウンドアップロード <b>/</b> 中断と自動再開 <b>/</b> 投稿キャンセル",
+"usage-functionalities":"<span class=\"label label-info\">機能一覧</span>: 写真のアップロード (Facebook, Twitter, Flickr, Dropbox, Evernote, Salesforce Chatter, Minus, Picasa, Google Drive, Instagram Fotolife, Mixi) <b>/</b> 動画のアップロード (Facebook, Flickr, Dropbox, Google Drive, Minus, Salesforce Chatter) <b>/</b>Instagramアプリへ写真の転送(ご利用には<a href=\"http://instagr.am\" target=\"_blank\" title=\"instagram\">Instagram</a>のインストールが必要です)<b>/</b> 本体への保存 <b>/</b> メールでの送信 <b>/</b> マルチアカウントサポート(Facebook, Twitter) <b>/</b> 連続撮影 <b>/</b> コメントの切り替え <b>/</b> 位置情報埋め込みの切り替え <b>/</b> 写真および動画の解像度設定 <b>/</b> サイレントモード <b>/</b> アップロード先のアルバム選択  <b>/</b> アルバム作成 <b>/</b> バックグラウンドアップロード <b>/</b> 中断と自動再開 <b>/</b> 投稿キャンセル",
 "faq":"よくある質問",
 "faq-what-title":"なにをするためのアプリですか",
 "faq-what-content":"カメラで撮った写真や動画をその場でFacebookなどに投稿するアプリです。Facebookアプリだとタップ数が多くて面倒くさい、複数のサービスに写真を投稿するのにFacebookアプリやDropboxアプリを立ち上げてカメラロールから共有するのが面倒くさい、そういった問題を解決するために、写真ならアプリを立ち上げて最小1タップで投稿できるようになっています。つまり開発者が怠け者だということです。",
@@ -47,5 +47,14 @@
 "oss":"OSS活動",
 "oss-content-1":"tottepostは<a href=\"https://github.com/kent013/tottepost\" target=\"_blank\">githubでソースコードを公開</a>しているオープンソースソフトウェアです。<br/>また複数サービスに写真や動画を投稿するためのライブラリPhotoSubmitterも<a href=\"https://github.com/kent013/PhotoSubmitter\" target=\"_blank\">githubでソースコードを公開</a>しています。<br/>いずれも修正BSDライセンスです。</p>",
 "oss-content-2":"同時に、<a href=\"https://github.com/kent013/tottepost/blob/master/3RDPARTY.md\" target=\"_blank\">たくさんのオープンソースライブラリ、Web上の素材を利用</a>して開発しています。<br/>作者および開発者の皆様に御礼申し上げます。</p>",
-"oss-github-title":"github 最新コミット"
+"oss-github-title":"github 最新コミット",
+"setting button":"設定ボタン",
+"done button":"完了ボタン",
+"service switch":"サービススイッチ",
+"shutter button":"シャッターボタン",
+"comment toggle":"コメント切替",
+"photo/video switch":"写真・ビデオ切替",
+"camera toggle":"カメラ切替",
+"upload progress":"アップロード進捗状況",
+"abort button":"アップロード中止ボタン"
 }

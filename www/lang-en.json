@@ -15,7 +15,7 @@
 "appstore-lite":"<a href=\"http://itunes.apple.com/app/id513700186?mt=8&uo=4\" target=\"itunes_store\"><img src=\"http://r.mzstatic.com/images/web/linkmaker/badge_appstore-lrg.gif\" alt=\"1 tap camera for sharing photo&amp;video - tottepost LITE - ISHITOYA Kentaro\" style=\"border: 0;\"/></a>",
 "appstore-lite-icon":"<a href=\"http://itunes.apple.com/app/id513700186?mt=8&uo=4\" target=\"itunes_store\"><img class=\"small_icon top_storelite\" src=\"http://a3.mzstatic.com/us/r1000/079/Purple/v4/84/a1/3d/84a13dd1-809e-7612-729e-565f66d1a456/PeSNcxPB8ig4uZRRcq6N8w-temp-upload.yejymden.75x75-65.jpg\" alt=\"tottepost icon\"/><img src=\"http://r.mzstatic.com/images/web/linkmaker/badge_appstore-lrg.gif\" alt=\"1 tap camera for sharing photo&amp;video - tottepost LITE - ISHITOYA Kentaro\" style=\"border: 0;\"/></a>",
 "usage":"Usage",
-"usage-functionalities":"<b>Feature List</b>: Uploading photo(Facebook, Twitter, Flickr, Dropbox, Google Drive, Evernote, Salesforce Chatter, Minus, Picasa, Fotolife, Mixi) <b>/</b> Uploading video(Facebook, Flickr, Dropbox, Google Drive, Minus, Salesforce Chatter) <b>/</b> Pass photo to Instagram App (Need to install <a href=\"http://instagr.am\" target=\"_blank\" title=\"instagram\">Instagram</a>) <b>/</b> Save to local camera roll <b>/</b> Send via e-mail <b>/</b> Multi account support(Facebook, Twitter) <b>/</b> Continuous shooting and uploading photo and video <b>/</b> Toggle comment <b>/</b> Toggle geo location <b>/</b> Selecting resolution of photo and video <b>/</b> Silent mode <b>/</b> Album selection  <b>/</b> Album creation <b>/</b> uploading in background <b>/</b> Aborting upload and automatic resume <b>/</b> Cancelling upload",
+"usage-functionalities":"<span class=\"label label-info\">Feature List</span>: Uploading photo(Facebook, Twitter, Flickr, Dropbox, Google Drive, Evernote, Salesforce Chatter, Minus, Picasa, Fotolife, Mixi) <b>/</b> Uploading video(Facebook, Flickr, Dropbox, Google Drive, Minus, Salesforce Chatter) <b>/</b> Pass photo to Instagram App (Need to install <a href=\"http://instagr.am\" target=\"_blank\" title=\"instagram\">Instagram</a>) <b>/</b> Save to local camera roll <b>/</b> Send via e-mail <b>/</b> Multi account support(Facebook, Twitter) <b>/</b> Continuous shooting and uploading photo and video <b>/</b> Toggle comment <b>/</b> Toggle geo location <b>/</b> Selecting resolution of photo and video <b>/</b> Silent mode <b>/</b> Album selection  <b>/</b> Album creation <b>/</b> uploading in background <b>/</b> Aborting upload and automatic resume <b>/</b> Cancelling upload",
 "faq":"FAQ",
 "faq-what-title":"What is this Application for?",
 "faq-what-content":"This application for uploading photo &amp; video immediately to social and storage services such as facebook, dropbox and so on. Feel messy to upload photo with Facebook app, uploading same photo &amp; video to multiple services. To solve these problem, tottepost provides simple operation to upload photo &amp; video with least one single tap. ...it means I'm lazy.",
@@ -47,5 +47,14 @@
 "oss":"OSS Activity",
 "oss-content-1":"tottepost is open source software, source code is published on <a href=\"https://github.com/kent013/tottepost\" target=\"_blank\">github</a>. And a library to uploading photo and video to multiple social services, named PhotoSubmitter is also published on <a href=\"https://github.com/kent013/PhotoSubmitter\" target=\"_blank\">github</a><br/>tottepost and PhotoSubmitter are licensed under modified BSD license.",
 "oss-content-2":"And also we are using a lot of 3rd party libraries and art-works to develop tottepos. We thank all of these developers and creators.",
-"oss-github-title":"Github Commits"
+"oss-github-title":"Github Commits",
+"setting button":"setting button",
+"done button":"done button",
+"service switch":"service switch",
+"shutter button":"shutter button",
+"comment toggle":"comment toggle",
+"photo/video switch":"photo/video toggle",
+"camera toggle":"camera toggle",
+"upload progress":"upload progress",
+"abort button":"cancel upload button"
 }

@@ -167,3 +167,39 @@
 		tags = common
 		ja = github 最新コミット
 		en = Github Commits
+	[setting button]
+	    tags = common
+	    ja = 設定ボタン
+		en = setting button
+    [done button]
+	    tags = common
+	    ja = 完了ボタン
+		en = done button
+	[service switch]
+	    tags = common
+	    ja = サービススイッチ
+		en = service switch
+	[shutter button]
+	    tags = common
+	    ja = シャッターボタン
+		en = shutter button
+	[comment toggle]
+	    tags = common
+	    ja = コメント切替
+		en = comment toggle
+	[photo/video switch]
+	    tags = common
+	    ja = 写真・ビデオ切替
+		en = photo/video toggle
+	[camera toggle]
+	    tags = common
+	    ja = カメラ切替
+		en = camera toggle
+	[upload progress]
+	    tags = common
+	    ja = アップロード進捗状況
+		en = upload progress
+	[abort button]
+	    tags = common
+	    ja = アップロード中止ボタン
+		en = cancel upload button
