@@ -37,8 +37,8 @@
 		en = Usage
 	[usage-functionalities]
 		tags = common
-		ja = <span class="label label-info">機能一覧</span>: 写真のアップロード (Facebook, Twitter, Flickr, Dropbox, Evernote, Salesforce Chatter, Minus, Picasa, Google Drive, Instagram Fotolife, Mixi) <b>/</b> 動画のアップロード (Facebook, Flickr, Dropbox, Google Drive, Minus, Salesforce Chatter) <b>/</b>Instagramアプリへ写真の転送(ご利用には<a href="http://instagr.am" target="_blank" title="instagram">Instagram</a>のインストールが必要です)<b>/</b> 本体への保存 <b>/</b> メールでの送信 <b>/</b> マルチアカウントサポート(Facebook, Twitter) <b>/</b> 連続撮影 <b>/</b> コメントの切り替え <b>/</b> 位置情報埋め込みの切り替え <b>/</b> 写真および動画の解像度設定 <b>/</b> サイレントモード <b>/</b> アップロード先のアルバム選択  <b>/</b> アルバム作成 <b>/</b> バックグラウンドアップロード <b>/</b> 中断と自動再開 <b>/</b> 投稿キャンセル
-		en = <span class="label label-info">Feature List</span>: Uploading photo(Facebook, Twitter, Flickr, Dropbox, Google Drive, Evernote, Salesforce Chatter, Minus, Picasa, Fotolife, Mixi) <b>/</b> Uploading video(Facebook, Flickr, Dropbox, Google Drive, Minus, Salesforce Chatter) <b>/</b> Pass photo to Instagram App (Need to install <a href="http://instagr.am" target="_blank" title="instagram">Instagram</a>) <b>/</b> Save to local camera roll <b>/</b> Send via e-mail <b>/</b> Multi account support(Facebook, Twitter) <b>/</b> Continuous shooting and uploading photo and video <b>/</b> Toggle comment <b>/</b> Toggle geo location <b>/</b> Selecting resolution of photo and video <b>/</b> Silent mode <b>/</b> Album selection  <b>/</b> Album creation <b>/</b> uploading in background <b>/</b> Aborting upload and automatic resume <b>/</b> Cancelling upload
+		ja = <span class="label label-info">機能一覧</span> 写真のアップロード (Facebook, Twitter, Flickr, Dropbox, Evernote, Salesforce Chatter, Minus, Picasa, Google Drive, Instagram Fotolife, Mixi) <b>/</b> 動画のアップロード (Facebook, Flickr, Dropbox, Google Drive, Minus, Salesforce Chatter) <b>/</b>Instagramアプリへ写真の転送(ご利用には<a href="http://instagr.am" target="_blank" title="instagram">Instagram</a>のインストールが必要です)<b>/</b> 本体への保存 <b>/</b> メールでの送信 <b>/</b> マルチアカウントサポート(Facebook, Twitter) <b>/</b> 連続撮影 <b>/</b> コメントの切り替え <b>/</b> 位置情報埋め込みの切り替え <b>/</b> 写真および動画の解像度設定 <b>/</b> サイレントモード <b>/</b> アップロード先のアルバム選択  <b>/</b> アルバム作成 <b>/</b> バックグラウンドアップロード <b>/</b> 中断と自動再開 <b>/</b> 投稿キャンセル
+		en = <span class="label label-info">Feature List</span> Uploading photo(Facebook, Twitter, Flickr, Dropbox, Google Drive, Evernote, Salesforce Chatter, Minus, Picasa, Fotolife, Mixi) <b>/</b> Uploading video(Facebook, Flickr, Dropbox, Google Drive, Minus, Salesforce Chatter) <b>/</b> Pass photo to Instagram App (Need to install <a href="http://instagr.am" target="_blank" title="instagram">Instagram</a>) <b>/</b> Save to local camera roll <b>/</b> Send via e-mail <b>/</b> Multi account support(Facebook, Twitter) <b>/</b> Continuous shooting and uploading photo and video <b>/</b> Toggle comment <b>/</b> Toggle geo location <b>/</b> Selecting resolution of photo and video <b>/</b> Silent mode <b>/</b> Album selection  <b>/</b> Album creation <b>/</b> uploading in background <b>/</b> Aborting upload and automatic resume <b>/</b> Cancelling upload
 	[faq]
 		tags = common
 		ja = よくある質問
@@ -203,3 +203,169 @@
 	    tags = common
 	    ja = アップロード中止ボタン
 		en = cancel upload button
+	[service name]
+	    tags = common
+	    ja = サービス名
+		en = service name
+	[album selection]
+	    tags = common
+	    ja = アルバム一覧
+		en = album list
+	[selected album]
+	    tags = common
+	    ja = 選択中のアルバム
+		en = selected album
+	[create album]
+	    tags = common
+	    ja = 新規アルバム作成
+		en = create new album
+	[save button]
+	    tags = common
+	    ja = 保存ボタン
+		en = save button
+	[basic-usage]
+	    tags = common
+	    ja = 基本的な使いかた
+		en = Basic Usage
+	[album-creation]
+	    tags = common
+	    ja = アルバムの作りかた
+		en = Album Creation
+	[detail-settings]	
+	    tags = common
+	    ja = 細かい設定
+		en = Detail Settings
+    [usage-basic-1-title]
+	    tags = common
+	    ja = 設定する
+		en = Open Setting
+    [usage-basic-1-content]
+	    tags = common
+	    ja = tottepostを初めて起動した場合や、サービスの設定を変更したいときには、右下の設定ボタンをタップしてください。
+		en = If you launched tottepost first time or to configure service settings, press setting button at right bottom corner.
+    [usage-basic-2-title]
+	    tags = common
+	    ja = サービスの設定
+		en = Configure Services
+    [usage-basic-2-content]
+	    tags = common
+	    ja = 写真や動画を投稿したいサービスの名前の横にあるスイッチをONにしてください。はじめてONにしたときや、認証の有効期限が切れているときには、各サービスの認証画面が立ち上がります。サービスは複数選ぶことができます。設定が終わったら完了ボタンで撮影画面に戻ってください。
+		en = To enable service, turn on a switch which placed at right side of service name. Authorization view will appear when you turn on the switch first time or the authorization is expired. You could select multiple services. When finished configuring, press done button.
+    [usage-basic-3-title]
+	    tags = common
+	    ja = 写真の撮影
+		en = Taking Photo
+    [usage-basic-3-content]
+	    tags = common
+	    ja = シャッターボタンをタップすると写真を取ることができます。撮影前にコメント切り替えボタンでコメントを有効(灰色:OFF, 青色:ON)にしておくと、撮影後にコメントを入力する画面がでてきます。また、写真・ビデオ切り替えスイッチをタップするとビデオを撮影することができます。
+		en = You can take photo with tapping shutter button. If you want to insert comment on the photo, tap comment toggle button (gray:OFF blue:ON). If comment is enabled, comment view will appear after photo taken. And if you want to take video insted of photo, you can toggle photo/video camera by tapping photo/video toggle switch.  
+    [usage-basic-4-title]
+	    tags = common
+	    ja = アップロード
+		en = Upload
+    [usage-basic-4-content]
+	    tags = common
+	    ja = 撮影が終わると、設定画面で選択したサービスへ自動的にアップロードが開始され、アップロードの進捗状況が右上に表示されます。アップロードを中止したい場合には右下のアップロード中止ボタンを押してください。なお、アップロードが終ってない状態でアプリがバックグラウンドになっても、アップロードが継続されます。
+		en = After photo taken, it will start uploading automatically to services you configured in setting view. Upload progresses are shown in right upper corner. If you want to abort uploading photo, tap cancel upload butto at right bottom corner. When tottepost go background, upload process will continue.
+    [usage-album-1-title]
+	    tags = common
+	    ja = サービスの選択
+		en = Select Service
+    [usage-album-1-content]
+	    tags = common
+	    ja = 以下のサービスでは、アルバムを作成したり、アルバムを選択して投稿することができます。アルバムを作成するサービス名を設定画面で選択してください。
+		en = In services below, you can create album(folder), upload photo to selected album. Tap service name which you want to edit album. 
+    [usage-album-2-title]
+	    tags = common
+	    ja = アルバム作成ボタンを選択
+		en = Tap Create Album Button
+    [usage-album-2-content]
+	    tags = common
+	    ja = アルバム作成ボタンをタップしてください。また、アルバム作成ボタンの上のアルバム名をタップことで、投稿先のアルバムを選択できます。
+		en = If you want to create album, tap create album button. To select album to upload, tap album name.
+    [usage-album-3-title]
+	    tags = common
+	    ja = アルバム名を入力
+		en = Input Album Name
+    [usage-album-3-content]
+	    tags = common
+	    ja = アルバム名を入力して、保存ボタンを押すとアルバムが作成されます。
+		en = Input album name to edit box and press save button to create album.
+    [usage-setting]
+	    tags = common
+	    ja = 設定画面では投稿するサービスの選択の他に様々な設定ができます。それぞれの設定項目と機能は以下の通りです。
+		en = You can configure various preferences in setting view.
+    [usage-setting-1-title]
+	    tags = common
+	    ja = コメント
+		en = Comment
+    [usage-setting-1-content]
+	    tags = common
+	    ja = オンにすると写真撮影後に投稿コメントを入力できます。
+		en = If comment enabled, comment view will appear after taking photo. 
+    [usage-setting-2-title]
+	    tags = common
+	    ja = 位置情報
+		en = GPS Tagging
+    [usage-setting-2-content]
+	    tags = common
+	    ja = オンにすると投稿された写真に位置情報が追加されます。
+		en = If GPS Tagging enabled, location information will embed in the photo.
+    [usage-setting-3-title]
+	    tags = common
+	    ja = 自動補正
+		en = Auto Enhance
+    [usage-setting-3-content]
+	    tags = common
+	    ja = オンにすると写真撮影時に明るさが自動補正されます(遅いです）。
+		en = Enable to auto enhance brightness and contrast (slow)
+    [usage-setting-4-title]
+	    tags = common
+	    ja = 写真画質
+		en = Photo Resolution
+    [usage-setting-4-content]
+	    tags = common
+	    ja = タップすると写真の画質を設定する画面が表示されます。Photo, High, Medium, Lowの4つから選べます。解像度はお使いの機種に依存しますが、Photoが最高画質です。
+		en = Tap to show photo resolution setting view. You can select photo resolution from Photo, High, Medium, Low presets. Actual resolution is according to your device. 
+    [usage-setting-5-title]
+	    tags = common
+	    ja = ビデオ画質
+		en = Video Resolution
+    [usage-setting-5-content]
+	    tags = common
+	    ja = タップすると動画の画質を設定する画面が表示されます。High, Medium, Lowの3つから選べます。解像度はお使いの機種に依存しますが、Highが最高画質です。動画はファイルサイズが大きくなるので、Highにすると投稿に時間がかかります。
+		en = Tap to show video resolution setting view. You can select video resolution from High, Medium, Low presets. Actual resolution is according to your device.
+    [usage-setting-6-title]
+	    tags = common
+	    ja = 静音モード
+		en = Silent Mode
+    [usage-setting-6-content]
+	    tags = common
+	    ja = オンにすると、シャッターの音量が調節できるようになります。
+		en = Enable silent mode to modify shutter volume. (Japanese iPhone device does not permit volume controll, If you dont have japanese device, ignore this option)  
+    [usage-setting-7-title]
+	    tags = common
+	    ja = シャッター音量
+		en = Shutter Volume
+    [usage-setting-7-content]
+	    tags = common
+	    ja = 静音モードをオンにすると、シャッターの音量を調節できます。左にいく程音量が小さくなります。
+		en = If you have enabled silent mode, you can modify shutter volume.
+    [usage-setting-8-title]
+	    tags = common
+	    ja = ヘルプ
+		en = Help
+    [usage-setting-8-content]
+	    tags = common
+	    ja = オンにすると、操作方法がポップアップされます。
+		en = Turn on to enable popup help.
+    [usage-setting-9-title]
+	    tags = common
+	    ja = フィードバック
+		en = Feedback
+    [usage-setting-9-content]
+	    tags = common
+	    ja = タップすると、開発者にバグの報告やアイディアの提案、AppStoreの評価などができます。ちょっとした感想や意見などなんでもいいのでお気軽にお問い合わせください。
+		en = Tap to show feedback view. You can report bugs, suggest ideas, rate tottepost in AppStore. Please do not hegitate to contact us.
+
+	

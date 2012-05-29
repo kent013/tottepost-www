@@ -33,25 +33,40 @@ function draw_usage_basic_3(ctx, lang){
 	draw_ellipse(ctx, 90, 232, 35, 18);
 	draw_line(ctx, 20, 203, 94, 235);
 	draw_textbox(ctx, "photo/video switch", lang, 10, 180);
-	ctx.roundRect(135, 247, 60, 24, 3);
+	ctx.roundRect(135, 247, 60, 24, 5);
 	draw_line(ctx, 165, 271, 180, 290);
 	draw_textbox(ctx, "shutter button", lang, 170, 290);
 }
 
 function draw_usage_basic_4(ctx, lang){
 	draw_line(ctx, 190, 140, 180, 150);
-	ctx.roundRect(180, 75, 55, 65, 3);
+	ctx.roundRect(180, 75, 55, 65, 5);
 	draw_textbox(ctx, "upload progress", lang, 170, 150);
-	ctx.roundRect(180, 218, 55, 20, 3);
+	ctx.roundRect(180, 218, 55, 20, 5);
 	draw_line(ctx, 190, 220, 180, 205);
 	draw_textbox(ctx, "abort button", lang, 170, 185);
 }	
 
 function draw_usage_album_1(ctx, lang){
+	draw_line(ctx, 110, 90, 50, 64);
+	ctx.roundRect(100, 90, 90, 20, 3);
+	draw_textbox(ctx, "service name", lang, 40, 42);
 }
 function draw_usage_album_2(ctx, lang){
+	draw_line(ctx, 105, 180, 50, 162);
+	ctx.roundRect(95, 180, 142, 60, 5);
+	draw_textbox(ctx, "album selection", lang, 40, 140);
+	draw_circle(ctx, 224, 193, 10);
+	draw_line(ctx, 224, 183, 210, 162);
+	draw_textbox(ctx, "selected album", lang, 200, 140);
+	ctx.roundRect(95, 240, 142, 20, 5);
+	draw_line(ctx, 105, 260, 50, 290);
+	draw_textbox(ctx, "create album", lang, 40, 290);
 }
 function draw_usage_album_3(ctx, lang){
+	draw_ellipse(ctx, 205, 67, 35, 20);
+	draw_line(ctx, 220, 42, 223, 67);
+	draw_textbox(ctx, "save button", lang, 210, 20);
 }
 function draw_usage_setting_1(ctx, lang){
 }
@@ -101,7 +116,7 @@ CanvasRenderingContext2D.prototype.roundRect = function(x, y, width, height, rad
 function draw_line(ctx, x1, y1, x2, y2){
 	ctx.beginPath();
 	ctx.lineWidth = 3;
-	ctx.strokeStyle = 'rgb(255, 0, 0)';
+	ctx.strokeStyle = 'rgba(255, 0, 0, 0.8)';
 	ctx.moveTo(x1, y1);
 	ctx.lineTo(x2, y2);
 	ctx.stroke();
@@ -118,7 +133,7 @@ function draw_ellipse(ctx, x, y, w, h) {
 
 	ctx.beginPath();
 	ctx.lineWidth = 3;
-	ctx.strokeStyle = 'rgb(255, 0, 0)';
+	ctx.strokeStyle = 'rgba(255, 0, 0, 0.8)';
 	ctx.moveTo(x, ym);
 	ctx.bezierCurveTo(x, ym - oy, xm - ox, y, xm, y);
 	ctx.bezierCurveTo(xm + ox, y, xe, ym - oy, xe, ym);
@@ -131,7 +146,7 @@ function draw_ellipse(ctx, x, y, w, h) {
 function draw_circle(ctx, x, y, r){
 	ctx.beginPath();
 	ctx.lineWidth = 3;
-	ctx.strokeStyle = 'rgb(255, 0, 0)';
+	ctx.strokeStyle = 'rgba(255, 0, 0, 0.8)';
 	ctx.arc(x, y, r, 0, Math.PI * 2, false);
 	ctx.stroke();
 }
@@ -147,7 +162,7 @@ function draw_textbox(ctx, text, lang, left, top){
 		height = 12;
 	}
 	var m = ctx.measureText(text);
-	ctx.fillStyle = "rgba(255, 255, 255, 0.8)"; 
+	ctx.fillStyle = "rgba(255, 255, 255, 0.9)"; 
 	ctx.roundRect(left, top, m.width + 20, height + 10, 5, true, true);
 	ctx.fillStyle = "black";
 	ctx.fillText(text, left + 10, top + height + 3);
