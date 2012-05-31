@@ -7,6 +7,7 @@ function draw_usage(lang){
 	draw_usage_step("album_2", lang);
 	draw_usage_step("album_3", lang);
 	draw_usage_step("setting_1", lang);
+	draw_usage_step("google_drive_1", lang);
 }
 
 function draw_usage_basic_1(ctx, lang){
@@ -70,6 +71,12 @@ function draw_usage_album_3(ctx, lang){
 }
 function draw_usage_setting_1(ctx, lang){
 }
+function draw_usage_google_drive_1(ctx, lang){
+	draw_line(ctx, 497, 77, 510, 100);
+	ctx.roundRect(437, 44, 121, 33, 5);
+	draw_textbox(ctx, "add to chrome", lang, 500, 100);
+}
+
 function draw_usage_step(name, lang){
 	var canvas = $("#canvas_usage_" + name);
 	canvas = canvas[0];

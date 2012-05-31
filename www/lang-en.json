@@ -66,6 +66,8 @@
 "basic-usage":"Basic Usage",
 "album-creation":"Album Creation",
 "detail-settings":"Detail Settings",
+"google-drive-setting":"Google Drive Setting",
+"add to chrome":"add to chrome",
 "usage-basic-1-title":"Open Setting",
 "usage-basic-1-content":"If you launched tottepost first time or to configure service settings, press setting button at right bottom corner.",
 "usage-basic-2-title":"Configure Services",
@@ -98,5 +100,9 @@
 "usage-setting-8-title":"Help",
 "usage-setting-8-content":"Turn on to enable popup help.",
 "usage-setting-9-title":"Feedback",
-"usage-setting-9-content":"Tap to show feedback view. You can report bugs, suggest ideas, rate tottepost in AppStore. Please do not hegitate to contact us."
+"usage-setting-9-content":"Tap to show feedback view. You can report bugs, suggest ideas, rate tottepost in AppStore. Please do not hegitate to contact us.",
+"usage-google-drive-1":"Click <a href=\"https://chrome.google.com/webstore/detail/ccjfhefbpaknfbgjefibphnjlfikcmpn\">this page</a> from Chrome of your PC.",
+"usage-google-drive-2":"Click 「ADD TO CHROME 」button.",
+"usage-google-drive-3":"Authorize google drive from tottepost when you finish adding the application.",
+"usage-google-drive-attention":"*Install Chrom from <a href=\"http://www.google.co.jp/chrome/intl/ja/landing_ch.html\">this page</a> if you don't have it."
 }
