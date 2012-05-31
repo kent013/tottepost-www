@@ -63,9 +63,11 @@
 "selected album":"選択中のアルバム",
 "create album":"新規アルバム作成",
 "save button":"保存ボタン",
+"add to chrome":"CHROMEに追加",
 "basic-usage":"基本的な使いかた",
 "album-creation":"アルバムの作りかた",
 "detail-settings":"細かい設定",
+"google-drive-setting":"Google Driveの設定方法",
 "usage-basic-1-title":"設定する",
 "usage-basic-1-content":"tottepostを初めて起動した場合や、サービスの設定を変更したいときには、右下の設定ボタンをタップしてください。",
 "usage-basic-2-title":"サービスの設定",
@@ -98,5 +100,9 @@
 "usage-setting-8-title":"ヘルプ",
 "usage-setting-8-content":"オンにすると、操作方法がポップアップされます。",
 "usage-setting-9-title":"フィードバック",
-"usage-setting-9-content":"タップすると、開発者にバグの報告やアイディアの提案、AppStoreの評価などができます。ちょっとした感想や意見などなんでもいいのでお気軽にお問い合わせください。"
+"usage-setting-9-content":"タップすると、開発者にバグの報告やアイディアの提案、AppStoreの評価などができます。ちょっとした感想や意見などなんでもいいのでお気軽にお問い合わせください。",
+"usage-google-drive-1":"Google Driveを認証する前にお使いのパソコンのChromeから<a href=\"https://chrome.google.com/webstore/detail/ccjfhefbpaknfbgjefibphnjlfikcmpn\">こちら</a>をクリック。",
+"usage-google-drive-2":"「Chromeに追加」ボタンをクリックしてください。",
+"usage-google-drive-3":"アプリの追加が終わったらtottepostで他のサービスと同じように認証を行なってください。",
+"usage-google-drive-attention":"※お使いのPCでChromeを使っていない方は<a href=\"http://www.google.co.jp/chrome/intl/ja/landing_ch.html\">このページ</a>からインストールしてください。"
 }
